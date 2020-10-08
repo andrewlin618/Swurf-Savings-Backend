@@ -1,6 +1,7 @@
 # Swurf-Savings-Backend
 
 We are Swurf Savings: a savings tool made by ride-share drivers, for ride-share drivers.
+Back-end API: www.swurfapi.herokuapp.com
 
 Swurf Savings is a web application that allows users to track their progress toward different savings goals with three tiers of importance based on what they prioritize.  The user has the ability to add/store their driving shifts which will impact the progress bars for each goal, calculated using its selected priority.  Using average shift income, which changes every time the user uploads a shift, the app provides accurate updates to the number of shifts required to reach a savings goal.
 
