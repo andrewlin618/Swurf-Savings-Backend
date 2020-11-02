@@ -83,7 +83,7 @@ For each user, he/she has the following properties:
 <img src="images/screenshot2.gif" width=500px alt="Screenshot"></img>
 <br />
 
-3. The system will automatically updated the progress bar, so the user will know how close they are to their saving goals.
+3. The system will automatically updated the progress bar, so the user will know how close they are to their saving goals.<br />
 <img src="images/screenshot3.gif" width=500px alt="Screenshot"></img>
 <br />
 
@@ -143,42 +143,42 @@ http://localhost:5000/
 ROOT URL: [Swurf API](http://www.swurfapi.heroku.com)
 **Shift Routes:**
 
-<span style="color:blue">GET</span> &emsp;/:username/allShifts
+<span style="color:blue">GET</span> &emsp;/:username/allShifts<br />
 *Get all shifts of certain user (including deleted shifts)*
 
-<span style="color:blue">GET</span> &emsp;/:username/shifts  
+<span style="color:blue">GET</span> &emsp;/:username/shifts<br />
 *Get all shifts of certain user (not including deleted shifts)*
 
-<span style="color:red">DELETE</span> &emsp;/:username/shifts
+<span style="color:red">DELETE</span> &emsp;/:username/shifts<br />
 *Delete all shifts of certain user*
 
-<span style="color:green">POST</span> &emsp;/:username/shifts
+<span style="color:green">POST</span> &emsp;/:username/shifts<br />
 *Post a new shift of certain user*
   
-<span style="color:blue">GET</span> &emsp;/:username/shift/:id
+<span style="color:blue">GET</span> &emsp;/:username/shift/:id<br />
 *Get certain shift of certain user by id*
 
-<span style="color:red">DELETE</span> &emsp;/:username/shift/:id
+<span style="color:red">DELETE</span> &emsp;/:username/shift/:id<br />
 *Delete certain shift of certain user by id*
 
 **Saving goals:**
 
-<span style="color:blue">GET</span> &emsp;/:username/allSavingGoals
+<span style="color:blue">GET</span> &emsp;/:username/allSavingGoals<br />
 *Get all saving goals of certain user (including deleted or achieved saving goals)*
 
-<span style="color:blue">GET</span> &emsp;/:username/savingGoals
+<span style="color:blue">GET</span> &emsp;/:username/savingGoals<br />
 *Get all saving goals of certain user (not including deleted or achieved saving goals)*
 
-<span style="color:red">DELETE</span> &emsp;/:username/savingGoals
+<span style="color:red">DELETE</span> &emsp;/:username/savingGoals<br />
 *Delete all saving goals of certain user*
 
-<span style="color:green">POST</span> &emsp;/:username/savingGoals
+<span style="color:green">POST</span> &emsp;/:username/savingGoals<br />
 *Post a new saving goal of certain user*
   
-<span style="color:blue">GET</span> &emsp;/:username/savingGoal/:id
+<span style="color:blue">GET</span> &emsp;/:username/savingGoal/:id<br />
 *Get certain saving goal of certain user by id*
 
-<span style="color:red">DELETE</span> &emsp;/:username/savingGoal/:id
+<span style="color:red">DELETE</span> &emsp;/:username/savingGoal/:id<br />
 *Delete certain saving goal of certain user by id*
 <br />
 
